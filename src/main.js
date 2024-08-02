@@ -1,33 +1,8 @@
-function gcd(a, b)
-{
-	a = Math.abs(a);
-	b = Math.abs(b);
-
-	if(b > a)
-	{
-		[a, b] = [b, a];
-	}
-
-	let r;
-	while(true)
-	{
-		r = a % b;
-
-		if (r <= 0)
-		{
-			break;
-		}
-
-		a = b;
-		b = r;
-	}
-
-	return b;
-}
+const my_math = require("./my_math");
 
 function printGcd(a, b)
 {
-	console.log("gcd(" + a + ", " + b + ") = " + gcd(a, b));
+	console.log("gcd(" + a + ", " + b + ") = " + my_math.gcd(a, b));
 }
 
 console.log("Hello, world!\n");
