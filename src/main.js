@@ -10,4 +10,4 @@ console.log("Hello, world!\n");
 printGcd(116, 54)
 printGcd(72, -108);
 
-console.log();
+console.log("Big Shaq: " + my_math.skrrra() + "\n");

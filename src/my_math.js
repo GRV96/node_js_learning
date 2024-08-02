@@ -25,4 +25,6 @@ function gcd(a, b)
 	return b;
 }
 
-module.exports = {gcd};
+const skrrra = () => 2 + 2;
+
+module.exports = {gcd, skrrra};
