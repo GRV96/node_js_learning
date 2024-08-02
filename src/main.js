@@ -1,4 +1,5 @@
 const my_math = require("./my_math");
+const person = require("./person");
 
 function printGcd(a, b)
 {
@@ -10,4 +11,7 @@ console.log("Hello, world!\n");
 printGcd(116, 54)
 printGcd(72, -108);
 
-console.log("Big Shaq: " + my_math.skrrra() + "\n");
+console.log("\nBig Shaq: " + my_math.skrrra() + "\n");
+
+gustav = person.makePerson("Gustav", "Romeo", 1996);
+console.log(gustav.toString() + "\n");
