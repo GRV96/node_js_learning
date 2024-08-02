@@ -1,0 +1,19 @@
+{
+  "name": "node_js_learning",
+  "version": "0.0.0",
+  "description": "Code written to learn Node.js",
+  "main": "./src/main.js",
+  "scripts": {
+    "start": "node ./src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GRV96/node_js_learning.git"
+  },
+  "author": "Guyllaume Rousseau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GRV96/node_js_learning/issues"
+  },
+  "homepage": "https://github.com/GRV96/node_js_learning#readme"
+}
